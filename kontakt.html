@@ -60,7 +60,7 @@
 		                    <p>
 		                        Nezapomeňte na váš kontakt a nezapomeňte nám napsat, jestli radši mailujete, nebo telefonujete. Obědu se nebráníme (pokud ministerstvo dovolí)</p>
 		                    <hr>
-		                    <p>Jsme plátci DPH (protože to je pro velké ryby výhodné).</p>
+		                    <p>Jsme plátci DPH (protože je to prý výhodné).</p>
 		                    <hr>
 		                    <p>
 		                        <strong>E:</strong> weare@onlike.cz&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br>
@@ -68,12 +68,12 @@
 		                    </p>
 		                </div>
 		                <div class="col-sm-6 col-md-5 col-md-offset-1">
-		                    <form class="form-email" data-success="Thanks for your submission, we will be in touch shortly." data-error="Please fill all fields correctly." success-redirect="">
-		                        <input type="text" class="validate-required" name="name" placeholder="Vaše jméno">
-		                        <input type="text" class="validate-required validate-email" name="email" placeholder="Váš email">
-		                        <textarea class="validate-required" name="message" rows="4" placeholder="Vaše zpráva"></textarea>
-		                        <button type="submit">Send Message</button>
-		                    </form>
+							<form action="https://formspree.io/f/xzbkgega" method="POST">
+								<label>Vaše jméno:<input type="text" name="Jméno"></label>
+								<label>Kam odpovíme:<input type="text" name="mail"></label>
+								<label>Co nám chcete vzkázat:<textarea name="zprava"></textarea></label>
+								<button type="submit">Odeslat</button>
+								</form>
 		                </div>
 		            </div>
 		            

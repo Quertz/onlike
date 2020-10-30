@@ -16,8 +16,8 @@ $outgoingServerSecurity     = 'tls';                 // Options: 'ssl' , 'tls' ,
 
 // Sending Account Settings - replace these details with an email account held on the SMTP server entered above.
 // These 2 settings are only required if you choose 'smtp' for emailMethod above.
-$sendingAccountUsername     = 'fxhulka@seznam.cz';
-$sendingAccountPassword     = '488246936';
+$sendingAccountUsername     = 'kaneleeice@gmail.com';
+$sendingAccountPassword     = 'gfkllprknzipfyri';
 
 // Recipient (To:) Details  - Change this to the email details of who will receive all the emails from the website.
 $recipientEmail             = 'weare@onlike.cz'; // REQUIRED value.
@@ -25,9 +25,9 @@ $recipientName              = 'We Are Onlike';             // REQUIRED value.
 
 // Email details            - Change these to suit your website needs
 $emailSubject               = 'A message from Your Website'; // REQUIRED value. Subject of the email that the recipient will see
-$websiteName                = 'onlike';                // REQUIRED value. This is used when a name or email is not collected from the website form
+$websiteName                = 'onlike.cz';                // REQUIRED value. This is used when a name or email is not collected from the website form
 
-$timeZone					= 'Australia/Melbourne';         // OPTIONAL, but some servers require this to be set. 
+$timeZone					= 'Europe/Prague';         // OPTIONAL, but some servers require this to be set. 
                                                              // See a list of all supported timezones at: http://php.net/manual/en/timezones.php
  /*----------------------------------------------------------------------------*\
 |*  You do not need to edit anything below this line, the rest is automatic.    *|

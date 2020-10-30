@@ -68,12 +68,20 @@
 		                    </p>
 		                </div>
 		                <div class="col-sm-6 col-md-5 col-md-offset-1">
-		                    <form class="form-email" data-success="Díky za zprávu, ozveme se co nejdříve" data-error="Prosíme, vyplňte všechna políčka..." success-redirect="">
-		                        <input type="text" class="validate-required" name="name" placeholder="Vaše jméno">
-		                        <input type="text" class="validate-required validate-email" name="email" placeholder="Váš email">
-		                        <textarea class="validate-required" name="message" rows="4" placeholder="Vaše zpráva"></textarea>
-		                        <button type="submit">Send Message</button>
-		                    </form>
+		                    <form action="https://formspree.io/f/xzbkgega" method="POST">
+<label>
+    Your email:
+    <input type="text" name="_replyto">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+
+  <!-- your other form fields go here -->
+
+  <button type="submit">Send</button>
+</form>
 		                </div>
 		            </div>
 		            

@@ -3,6 +3,6 @@ Onlike web pages
 
 K vidění na onlike.cz
 
-Verze pondělí 02.11.2020
+Kontakt weare@onlike.cz
 
-Verze TEST v 11:28
+Telefon 774 646 006
